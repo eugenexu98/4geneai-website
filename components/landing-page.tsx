@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { Dna, Zap, Brain, Lock, Mail } from "lucide-react"
 
-export function LandingPageComponent() {
+export default function LandingPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <header className="px-4 lg:px-6 h-14 flex items-center fixed w-full bg-white z-10">
@@ -69,7 +69,7 @@ export function LandingPageComponent() {
             <div className="flex flex-col justify-center space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About 4GeneAI</h2>
               <p className="max-w-[800px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                At 4GeneAI, we're passionate about harnessing the power of artificial intelligence to revolutionize genetic research and personalized medicine. Our team of experts in AI, genetics, and data science work tirelessly to develop cutting-edge solutions that can transform healthcare and improve lives. We believe in the potential of AI to unlock new insights from genetic data, leading to more accurate diagnoses, personalized treatment plans, and ultimately, better patient outcomes.
+                At 4GeneAI, we&apos;re passionate about harnessing the power of artificial intelligence to revolutionize genetic research and personalized medicine. Our team of experts in AI, genetics, and data science work tirelessly to develop cutting-edge solutions that can transform healthcare and improve lives. We believe in the potential of AI to unlock new insights from genetic data, leading to more accurate diagnoses, personalized treatment plans, and ultimately, better patient outcomes.
               </p>
             </div>
           </div>
