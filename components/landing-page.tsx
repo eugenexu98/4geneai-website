@@ -66,11 +66,11 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
-        <section id="about" className="w-full py-12 md:py-24 lg:py-32">
+        <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-purple-700">
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-black">About 4GeneAI</h2>
-              <p className="max-w-[800px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">About 4GeneAI</h2>
+              <p className="max-w-[800px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 At 4GeneAI, we&apos;re passionate about harnessing the power of artificial intelligence to revolutionize genetic research and personalized medicine. Our team of experts in AI, genetics, and data science work tirelessly to develop cutting-edge solutions that can transform healthcare and improve lives. We believe in the potential of AI to unlock new insights from genetic data, leading to more accurate diagnoses, personalized treatment plans, and ultimately, better patient outcomes.
               </p>
             </div>
